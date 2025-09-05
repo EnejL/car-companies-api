@@ -2,7 +2,7 @@
   {
     "id": 1,
     "brand": "Abarth",
-    "logo_url": "",
+    "logo_url": "/logos/abarth.png",
     "models": [
       "124 Spider",
       "500",
@@ -22,7 +22,7 @@
   {
     "id": 2,
     "brand": "Alfa Romeo",
-    "logo_url": "",
+    "logo_url": "/logos/alfa-romeo.png",
     "models": [
       "145",
       "146",
@@ -57,7 +57,7 @@
   {
     "id": 3,
     "brand": "Alpina",
-    "logo_url": "",
+    "logo_url": "/logos/alpina.png",
     "models": [
       "B10",
       "B12",
@@ -83,7 +83,7 @@
   {
     "id": 4,
     "brand": "Alpine",
-    "logo_url": "",
+    "logo_url": "/logos/alpine.png",
     "models": [
       "A110",
       "A290",
@@ -93,7 +93,7 @@
   {
     "id": 5,
     "brand": "Aston Martin",
-    "logo_url": "",
+    "logo_url": "/logos/aston-martin.png",
     "models": [
       "AR1",
       "Cygnet",
@@ -116,7 +116,7 @@
   {
     "id": 6,
     "brand": "Audi",
-    "logo_url": "",
+    "logo_url": "/logos/audi.png",
     "models": [
       "100",
       "200",
@@ -183,7 +183,7 @@
   {
     "id": 7,
     "brand": "Bentley",
-    "logo_url": "",
+    "logo_url": "/logos/bentley.png",
     "models": [
       "Arnage",
       "Azure",
@@ -207,7 +207,7 @@
   {
     "id": 8,
     "brand": "BMW",
-    "logo_url": "",
+    "logo_url": "/logos/bmw.png",
     "models": [
       "1 Series (All)",
       "114",
@@ -632,7 +632,7 @@
   {
     "id": 18,
     "brand": "Dacia",
-    "logo_url": "",
+    "logo_url": "/logos/dacia.png",
     "models": [
       "Bigster",
       "Dokker",
@@ -650,7 +650,7 @@
   {
     "id": 19,
     "brand": "Daewoo",
-    "logo_url": "",
+    "logo_url": "/logos/daewoo.png",
     "models": [
       "Espero",
       "Evanda",
@@ -671,7 +671,7 @@
   {
     "id": 20,
     "brand": "Daihatsu",
-    "logo_url": "",
+    "logo_url": "/logos/daihatsu.png",
     "models": [
       "Applause",
       "Charade",
@@ -695,7 +695,7 @@
   {
     "id": 21,
     "brand": "Dodge",
-    "logo_url": "",
+    "logo_url": "/logos/dodge.png",
     "models": [
       "Avenger",
       "Caliber",
@@ -721,7 +721,7 @@
   {
     "id": 22,
     "brand": "DS",
-    "logo_url": "",
+    "logo_url": "/logos/ds.png",
     "models": [
       "DS3",
       "DS3 Crossback",
@@ -737,7 +737,7 @@
   {
     "id": 23,
     "brand": "Ferrari",
-    "logo_url": "",
+    "logo_url": "/logos/ferrari.png",
     "models": [
       "208",
       "246",
@@ -795,7 +795,7 @@
   {
     "id": 24,
     "brand": "Fiat",
-    "logo_url": "",
+    "logo_url": "/logos/fiat.png",
     "models": [
       "124",
       "124 Spider",
@@ -863,7 +863,7 @@
   {
     "id": 25,
     "brand": "Ford",
-    "logo_url": "",
+    "logo_url": "/logos/ford.png",
     "models": [
       "Aerostar",
       "B-Max",
@@ -937,7 +937,7 @@
   {
     "id": 26,
     "brand": "Genesis",
-    "logo_url": "",
+    "logo_url": "/logos/genesis.png",
     "models": [
       "G70",
       "G80",
@@ -951,7 +951,7 @@
   {
     "id": 27,
     "brand": "GMC",
-    "logo_url": "",
+    "logo_url": "/logos/gmc.png",
     "models": [
       "Acadia",
       "Envoy",
@@ -970,7 +970,7 @@
   {
     "id": 28,
     "brand": "Honda",
-    "logo_url": "",
+    "logo_url": "/logos/honda.png",
     "models": [
       "Accord",
       "Aerodeck",
@@ -1006,7 +1006,7 @@
   {
     "id": 29,
     "brand": "Hummer",
-    "logo_url": "",
+    "logo_url": "/logos/hummer.png",
     "models": [
       "H1",
       "H2",
@@ -1017,7 +1017,7 @@
   {
     "id": 30,
     "brand": "Hyundai",
-    "logo_url": "",
+    "logo_url": "/logos/hyundai.png",
     "models": [
       "Accent",
       "Atos",
@@ -1072,7 +1072,7 @@
   {
     "id": 31,
     "brand": "INEOS",
-    "logo_url": "",
+    "logo_url": "/logos/ineos.png",
     "models": [
       "Grenadier",
       "Other"
@@ -1081,7 +1081,7 @@
   {
     "id": 32,
     "brand": "Infiniti",
-    "logo_url": "",
+    "logo_url": "/logos/infiniti.png",
     "models": [
       "EX30",
       "EX35",
@@ -1109,7 +1109,7 @@
   {
     "id": 33,
     "brand": "Isuzu",
-    "logo_url": "",
+    "logo_url": "/logos/isuzu.png",
     "models": [
       "Campo",
       "D-Max",
@@ -1123,7 +1123,7 @@
   {
     "id": 34,
     "brand": "Jaguar",
-    "logo_url": "",
+    "logo_url": "/logos/jaguar.png",
     "models": [
       "Daimler",
       "E-Pace",
@@ -1153,7 +1153,7 @@
   {
     "id": 35,
     "brand": "Jeep",
-    "logo_url": "",
+    "logo_url": "/logos/jeep.png",
     "models": [
       "Avenger",
       "Cherokee",
@@ -1174,7 +1174,7 @@
   {
     "id": 36,
     "brand": "Kia",
-    "logo_url": "",
+    "logo_url": "/logos/kia.png",
     "models": [
       "Besta",
       "Borrego",
@@ -1222,7 +1222,7 @@
   {
     "id": 37,
     "brand": "Koenigsegg",
-    "logo_url": "",
+    "logo_url": "/logos/koenigsegg.png",
     "models": [
       "Agera",
       "CCR",
@@ -1233,7 +1233,7 @@
   {
     "id": 38,
     "brand": "Lamborghini",
-    "logo_url": "",
+    "logo_url": "/logos/lamborghini.png",
     "models": [
       "Aventador",
       "Countach",
@@ -1254,7 +1254,7 @@
   {
     "id": 39,
     "brand": "Lancia",
-    "logo_url": "",
+    "logo_url": "/logos/lancia.png",
     "models": [
       "Beta",
       "Dedra",
@@ -1280,7 +1280,7 @@
   {
     "id": 40,
     "brand": "Land Rover",
-    "logo_url": "",
+    "logo_url": "/logos/land-rover.png",
     "models": [
       "Defender",
       "Discovery",
@@ -1299,7 +1299,7 @@
   {
     "id": 41,
     "brand": "Lexus",
-    "logo_url": "",
+    "logo_url": "/logos/lexus.png",
     "models": [
       "CT 200h",
       "ES Series (All)",
@@ -1370,7 +1370,7 @@
   {
     "id": 42,
     "brand": "Lincoln",
-    "logo_url": "",
+    "logo_url": "/logos/lincoln.png",
     "models": [
       "Aviator",
       "Continental",
@@ -1384,7 +1384,7 @@
   {
     "id": 43,
     "brand": "Lotus",
-    "logo_url": "",
+    "logo_url": "/logos/lotus.png",
     "models": [
       "340 R",
       "Cortina",
@@ -1406,7 +1406,7 @@
   {
     "id": 44,
     "brand": "Lynk & Co",
-    "logo_url": "",
+    "logo_url": "/logos/lynk-co.png",
     "models": [
       "01",
       "02",
@@ -1417,7 +1417,7 @@
   {
     "id": 45,
     "brand": "Maserati",
-    "logo_url": "",
+    "logo_url": "/logos/maserati.png",
     "models": [
       "222",
       "224",
@@ -1450,7 +1450,7 @@
   {
     "id": 46,
     "brand": "Mazda",
-    "logo_url": "",
+    "logo_url": "/logos/mazda.png",
     "models": [
       "121",
       "2",
@@ -1493,7 +1493,7 @@
   {
     "id": 47,
     "brand": "McLaren",
-    "logo_url": "",
+    "logo_url": "/logos/mclaren.png",
     "models": [
       "540C",
       "570GT",
@@ -1522,7 +1522,7 @@
   {
     "id": 48,
     "brand": "Mercedes-Benz",
-    "logo_url": "",
+    "logo_url": "/logos/mercedes-benz.png",
     "models": [
       "190",
       "200",
@@ -2019,7 +2019,7 @@
   {
     "id": 52,
     "brand": "Morgan",
-    "logo_url": "",
+    "logo_url": "/logos/morgan.png",
     "models": [
       "3 Wheeler",
       "4/4",
@@ -2034,7 +2034,7 @@
   {
     "id": 53,
     "brand": "Nissan",
-    "logo_url": "",
+    "logo_url": "/logos/nissan.png",
     "models": [
       "100 NX",
       "200 SX",
@@ -2474,7 +2474,7 @@
   {
     "id": 65,
     "brand": "Smart",
-    "logo_url": "",
+    "logo_url": "/logos/smart.png",
     "models": [
       "#1",
       "#3",
@@ -2489,7 +2489,7 @@
   {
     "id": 66,
     "brand": "SsangYong",
-    "logo_url": "",
+    "logo_url": "/logos/ssangyong.png",
     "models": [
       "Actyon",
       "Family",
@@ -2507,7 +2507,7 @@
   {
     "id": 67,
     "brand": "Subaru",
-    "logo_url": "",
+    "logo_url": "/logos/subaru.png",
     "models": [
       "B9 Tribeca",
       "Baja",
@@ -2534,7 +2534,7 @@
   {
     "id": 68,
     "brand": "Suzuki",
-    "logo_url": "",
+    "logo_url": "/logos/suzuki.png",
     "models": [
       "(SX4) S-Cross",
       "Across",
@@ -2565,7 +2565,7 @@
   {
     "id": 69,
     "brand": "Tata",
-    "logo_url": "",
+    "logo_url": "/logos/tata.png",
     "models": [
       "Indica",
       "Indigo",
@@ -2581,7 +2581,7 @@
   {
     "id": 70,
     "brand": "Tesla",
-    "logo_url": "",
+    "logo_url": "/logos/tesla.png",
     "models": [
       "Model 3",
       "Model S",
@@ -2594,7 +2594,7 @@
   {
     "id": 71,
     "brand": "Toyota",
-    "logo_url": "",
+    "logo_url": "/logos/toyota.png",
     "models": [
       "4-Runner",
       "Alphard",
@@ -2657,7 +2657,7 @@
   {
     "id": 72,
     "brand": "TVR",
-    "logo_url": "",
+    "logo_url": "/logos/tvr.png",
     "models": [
       "Chimaera",
       "Griffith",
@@ -2668,7 +2668,7 @@
   {
     "id": 73,
     "brand": "Volkswagen",
-    "logo_url": "",
+    "logo_url": "/logos/volkswagen.png",
     "models": [
       "181",
       "Amarok",
@@ -2759,7 +2759,7 @@
   {
     "id": 74,
     "brand": "Volvo",
-    "logo_url": "",
+    "logo_url": "/logos/volvo.png",
     "models": [
       "240",
       "244",

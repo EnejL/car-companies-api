@@ -7,6 +7,8 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(express.static('public'));
+
 // 3. Import the car data from the JSON file
 const carData = require('./carData.json');
 
