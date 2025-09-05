@@ -380,7 +380,7 @@
   {
     "id": 9,
     "brand": "Bugatti",
-    "logo_url": "",
+    "logo_url": "/logos/bugatti.png",
     "models": [
       "Chiron",
       "EB 110",
@@ -391,7 +391,7 @@
   {
     "id": 10,
     "brand": "Buick",
-    "logo_url": "",
+    "logo_url": "/logos/buick.png",
     "models": [
       "Century",
       "Electra",
@@ -409,7 +409,7 @@
   {
     "id": 11,
     "brand": "BYD",
-    "logo_url": "",
+    "logo_url": "/logos/byd.png",
     "models": [
       "ATTO 2",
       "ATTO 3",
@@ -426,7 +426,7 @@
   {
     "id": 12,
     "brand": "Cadillac",
-    "logo_url": "",
+    "logo_url": "/logos/cadillac.png",
     "models": [
       "Allante",
       "ATS",
@@ -451,7 +451,7 @@
   {
     "id": 13,
     "brand": "Chevrolet",
-    "logo_url": "",
+    "logo_url": "/logos/chevrolet.png",
     "models": [
       "2500",
       "Alero",
@@ -507,7 +507,7 @@
   {
     "id": 14,
     "brand": "Chrysler",
-    "logo_url": "",
+    "logo_url": "/logos/chrysler.png",
     "models": [
       "200",
       "300C",
@@ -538,7 +538,7 @@
   {
     "id": 15,
     "brand": "Citroen",
-    "logo_url": "",
+    "logo_url": "/logos/citroen.png",
     "models": [
       "2 CV",
       "AMI",
@@ -598,7 +598,7 @@
   {
     "id": 16,
     "brand": "Corvette",
-    "logo_url": "",
+    "logo_url": "/logos/corvette.png",
     "models": [
       "C1",
       "C2",
@@ -616,7 +616,7 @@
   {
     "id": 17,
     "brand": "Cupra",
-    "logo_url": "",
+    "logo_url": "/logos/cupra.png",
     "models": [
       "Arona",
       "Ateca",
@@ -1898,7 +1898,7 @@
   {
     "id": 49,
     "brand": "MG",
-    "logo_url": "",
+    "logo_url": "/logos/mg.png",
     "models": [
       "Cyberster",
       "EHS",
@@ -1924,7 +1924,7 @@
   {
     "id": 50,
     "brand": "Mini",
-    "logo_url": "",
+    "logo_url": "/logos/mini.png",
     "models": [
       "Aceman",
       "Cooper Cabrio",
@@ -1977,7 +1977,7 @@
   {
     "id": 51,
     "brand": "Mitsubishi",
-    "logo_url": "",
+    "logo_url": "/logos/mitsubishi.png",
     "models": [
       "3000 GT",
       "ASX",
@@ -2103,7 +2103,7 @@
   {
     "id": 54,
     "brand": "Opel",
-    "logo_url": "",
+    "logo_url": "/logos/opel.png",
     "models": [
       "Adam",
       "Agila",
@@ -2162,7 +2162,7 @@
   {
     "id": 55,
     "brand": "Pagani",
-    "logo_url": "",
+    "logo_url": "/logos/pagani.png",
     "models": [
       "Huayra",
       "Zonda",
@@ -2172,7 +2172,7 @@
   {
     "id": 56,
     "brand": "Peugeot",
-    "logo_url": "",
+    "logo_url": "/logos/peugeot.png",
     "models": [
       "1007",
       "104",
@@ -2231,7 +2231,7 @@
   {
     "id": 57,
     "brand": "Polestar",
-    "logo_url": "",
+    "logo_url": "/logos/polestar.png",
     "models": [
       "1",
       "2",
@@ -2243,7 +2243,7 @@
   {
     "id": 58,
     "brand": "Porsche",
-    "logo_url": "",
+    "logo_url": "/logos/porsche.png",
     "models": [
       "356",
       "912",
@@ -2276,7 +2276,7 @@
   {
     "id": 59,
     "brand": "Renault",
-    "logo_url": "",
+    "logo_url": "/logos/renault.png",
     "models": [
       "Alaskan",
       "Alpine A110",
@@ -2341,7 +2341,7 @@
   {
     "id": 60,
     "brand": "Rolls-Royce",
-    "logo_url": "",
+    "logo_url": "/logos/rolls-royce.png",
     "models": [
       "Corniche",
       "Cullinan",
@@ -2364,7 +2364,7 @@
   {
     "id": 61,
     "brand": "Rover",
-    "logo_url": "",
+    "logo_url": "/logos/rover.png",
     "models": [
       "100",
       "111",
@@ -2403,7 +2403,7 @@
   {
     "id": 62,
     "brand": "Saab",
-    "logo_url": "",
+    "logo_url": "/logos/saab.png",
     "models": [
       "90",
       "900",
@@ -2420,7 +2420,7 @@
   {
     "id": 63,
     "brand": "Seat",
-    "logo_url": "",
+    "logo_url": "/logos/seat.png",
     "models": [
       "Alhambra",
       "Altea",
@@ -2444,7 +2444,7 @@
   {
     "id": 64,
     "brand": "Skoda",
-    "logo_url": "",
+    "logo_url": "/logos/skoda.png",
     "models": [
       "105",
       "120",
