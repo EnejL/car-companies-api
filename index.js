@@ -7,38 +7,75 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static('public'));
-
 // 3. Import the car data from the JSON file
 const carData = require('./carData.json');
 
-// 4. Apply middleware
-app.use(cors()); // Enable Cross-Origin Resource Sharing
-// Serve static files (like logos) from the 'public' directory
+app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // 5. Define API endpoints (Routes)
-
-// Root endpoint - a simple welcome message
+// Root endpoint
 app.get('/', (req, res) => {
   res.send('Welcome to the Car Brands API!');
 });
 
-// GET /makers - returns the full list of car makers
-app.get('/makers', (req, res) => {
-  res.json(carData);
+// GET /makers/random - returns a single random car maker (must be before /makers/:brand)
+app.get('/makers/random', (req, res) => {
+  const randomIndex = Math.floor(Math.random() * carData.length);
+  const randomMaker = carData[randomIndex];
+  res.json(randomMaker);
 });
 
-// GET /makers/:id - returns a single maker by its ID
-app.get('/makers/:id', (req, res) => {
-  const makerId = parseInt(req.params.id); // Get the ID from the URL parameter
-  const maker = carData.find(m => m.id === makerId);
+// COMBINED ENDPOINT FOR /makers WITH SEARCH AND PAGINATION
+app.get('/makers', (req, res) => {
+  const { search, page = 1, limit = 10 } = req.query;
+  
+  let results = [...carData]; // Start with a copy of the full dataset
+
+  // Step 1: Apply search filter if a query is provided
+  if (search) {
+    results = results.filter(maker => 
+      maker.brand.toLowerCase().includes(search.toString().toLowerCase())
+    );
+  }
+
+  // Step 2: Apply pagination to the (potentially filtered) results
+  const paginatedResults = {};
+  const startIndex = (parseInt(page) - 1) * parseInt(limit);
+  const endIndex = parseInt(page) * parseInt(limit);
+  
+  paginatedResults.totalItems = results.length;
+  paginatedResults.totalPages = Math.ceil(results.length / parseInt(limit));
+  paginatedResults.currentPage = parseInt(page);
+  paginatedResults.data = results.slice(startIndex, endIndex);
+
+  res.json(paginatedResults);
+});
+
+// GET /makers/:brand - returns a single maker by brand name
+app.get('/makers/:brand', (req, res) => {
+  const brandName = decodeURIComponent(req.params.brand);
+  const maker = carData.find(m => 
+    m.brand.toLowerCase() === brandName.toLowerCase()
+  );
 
   if (maker) {
     res.json(maker);
   } else {
-    // If no maker is found, send a 404 Not Found error
     res.status(404).json({ error: 'Maker not found' });
+  }
+});
+
+// GET /makers/:brand/logo - returns logo for a specific brand
+app.get('/makers/:brand/logo', (req, res) => {
+  const brandName = decodeURIComponent(req.params.brand);
+  const maker = carData.find(m => 
+    m.brand.toLowerCase() === brandName.toLowerCase()
+  );
+  if (maker && maker.logo_url) {
+    res.redirect(maker.logo_url);
+  } else {
+    res.status(404).json({ error: 'Maker or logo not found' });
   }
 });
 
